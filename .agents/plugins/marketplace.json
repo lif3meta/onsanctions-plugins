@@ -1,0 +1,20 @@
+{
+  "name": "onsanctions",
+  "interface": {
+    "displayName": "OnSanctions"
+  },
+  "plugins": [
+    {
+      "name": "onsanctions",
+      "source": {
+        "source": "local",
+        "path": "./plugins/onsanctions"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

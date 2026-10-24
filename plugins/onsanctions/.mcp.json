@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "onsanctions": {
+      "type": "http",
+      "url": "https://onsanctions.com/mcp",
+      "headers": {
+        "x-api-key": "${ONSANCTIONS_API_KEY}"
+      }
+    }
+  }
+}

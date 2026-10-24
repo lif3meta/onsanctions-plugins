@@ -1,0 +1,19 @@
+{
+  "name": "onsanctions",
+  "description": "OnSanctions plugins for ongoing sanctions screening.",
+  "owner": {
+    "name": "OnSanctions",
+    "email": "hello@onsanctions.com",
+    "url": "https://onsanctions.com"
+  },
+  "plugins": [
+    {
+      "name": "onsanctions",
+      "source": "./plugins/onsanctions",
+      "description": "Enrol, rescreen, and withdraw people and companies against sanctions and watchlists, and look up coverage and prices.",
+      "version": "0.2.0",
+      "category": "productivity",
+      "tags": ["sanctions", "aml", "compliance", "mcp"]
+    }
+  ]
+}

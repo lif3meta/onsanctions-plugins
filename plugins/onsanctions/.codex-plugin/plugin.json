@@ -1,0 +1,45 @@
+{
+  "name": "onsanctions",
+  "version": "0.2.0",
+  "description": "Enrol, rescreen, and withdraw identified people and companies against sanctions and watchlists.",
+  "author": {
+    "name": "OnSanctions",
+    "url": "https://onsanctions.com"
+  },
+  "homepage": "https://onsanctions.com/docs#mcp",
+  "repository": "https://github.com/lif3meta/onsanctions-plugins",
+  "license": "UNLICENSED",
+  "keywords": [
+    "sanctions",
+    "screening",
+    "aml",
+    "pep",
+    "watchlist",
+    "compliance",
+    "kyc"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.codex-mcp.json",
+  "interface": {
+    "displayName": "OnSanctions",
+    "shortDescription": "Ongoing sanctions screening",
+    "longDescription": "Enrol a person or company, rescreen that subject, or withdraw them. Look up coverage and licence prices. A clear result is not a clearance.",
+    "developerName": "OnSanctions",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://onsanctions.com",
+    "privacyPolicyURL": "https://onsanctions.com/privacy",
+    "termsOfServiceURL": "https://www.verifynow.co.za/terms",
+    "defaultPrompt": [
+      "Enrol SAMPLE MATCH PERSON, passport SAMPLE12345, GB, on the sanctions dataset.",
+      "Which watchlists does an OnSanctions screen cover?",
+      "What does the OnSanctions licence cost in GBP?"
+    ],
+    "brandColor": "#0A0A0A",
+    "logo": "./assets/icon.png",
+    "composerIcon": "./assets/icon.png"
+  }
+}

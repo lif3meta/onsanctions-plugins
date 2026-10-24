@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "onsanctions": {
+      "type": "http",
+      "url": "https://onsanctions.com/mcp",
+      "bearer_token_env_var": "ONSANCTIONS_API_KEY"
+    }
+  }
+}

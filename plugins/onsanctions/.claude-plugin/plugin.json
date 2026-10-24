@@ -1,0 +1,24 @@
+{
+  "name": "onsanctions",
+  "version": "0.2.0",
+  "description": "Enrol, rescreen, and withdraw identified people and companies against sanctions and watchlists with the OnSanctions MCP server.",
+  "author": {
+    "name": "OnSanctions",
+    "email": "hello@onsanctions.com",
+    "url": "https://onsanctions.com"
+  },
+  "homepage": "https://onsanctions.com/docs#mcp",
+  "privacyPolicyUrl": "https://onsanctions.com/privacy",
+  "repository": "https://github.com/lif3meta/onsanctions-plugins",
+  "license": "UNLICENSED",
+  "keywords": [
+    "sanctions",
+    "screening",
+    "aml",
+    "pep",
+    "watchlist",
+    "compliance",
+    "kyc"
+  ],
+  "icon": "./assets/icon.png"
+}
